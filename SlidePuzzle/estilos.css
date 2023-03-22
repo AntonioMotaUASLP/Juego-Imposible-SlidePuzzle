@@ -1,0 +1,102 @@
+body {
+  background-image: url('https://img.freepik.com/free-vector/hand-painted-watercolor-abstract-watercolor-background_23-2149009911.jpg?w=2000  ');
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+      /* ----------- Estilos para el HTML ----------- */
+
+table {
+    border-collapse: collapse;
+    margin: auto;
+}
+td {
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer; /*modifica el cursor para que se vea como una manita*/
+}   td.vacia { background-color: rgb(0, 0, 0);  }
+
+#container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 0px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}   p {font-size: 24px; }
+
+#tablero { 
+    margin-bottom: 50px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#nombreJugador { font-weight: bold; }
+#temporizador, #movimientos {
+    font-weight: bold;
+    color: blue;
+}
+  
+    /* ----------- Estilos para JavaScript ----------- */
+
+  .container {
+    margin: 50px auto;
+    width: 500px;
+    height: 500px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+  }dne
+  
+  .tablero {
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  .casilla {
+    width: 100px;
+    height: 100px;
+    background-color: #eee;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    font-size: 36px;
+    text-align: center;
+    line-height: 100px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .casilla.vacia {
+    background-color: transparent;
+    border: none;
+    cursor: default;
+  }
+  
+  .temporizador {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 24px;
+  }
+
+  .movimientos {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 18px;
+  }
+  
