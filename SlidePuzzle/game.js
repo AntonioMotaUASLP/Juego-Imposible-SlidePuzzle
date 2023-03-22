@@ -1,8 +1,3 @@
-// este codigo lo hice basandome en videos y otros codigos 
-// porque había muchas cosas que no pude hacer por mi cuenta
-// como el manejar el click en las fichas para hacer que se movieran
-
-//'var' sirve para declarar variables globales y 'let' para variables de bloque
 var tablero = [];
 var nombreJugador;
 var movimientos = 0;
